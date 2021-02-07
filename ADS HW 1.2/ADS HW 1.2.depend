@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1581364708 source:c:\users\haileyesus\desktop\soft\ads hw 1.2\teststack.cpp
+	<iostream>
+	"stack.h"
+
+1581364591 c:\users\haileyesus\desktop\soft\ads hw 1.2\stack.h
+	<iostream>
+

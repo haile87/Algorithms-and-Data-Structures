@@ -1,0 +1,5 @@
+NumberMaze: NumberMaze.o
+	g++ -Wall -o NumberMaze NumberMaze.o
+
+NumberMaze.o: NumberMaze.cpp
+	g++ -Wall -c NumberMaze.cpp

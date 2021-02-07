@@ -1,0 +1,13 @@
+stackwithlist : stackwithlist.o
+	g++ -Wall -g -o stackwithlist stackwithlist.o
+stackwithlist.o : stackwithlist.cpp
+	g++ -Wall -g -c stackwithlist.cpp
+queueusingstacks : queueusingstacks.o
+	g++ -Wall -g -o queueusingstacks queueusingstacks.o
+queueusingstacks.o : queueusingstacks.cpp
+	g++ -Wall -g -c queueusingstacks.cpp
+bsttolist : bsttolist.o
+	g++ -Wall -g -o bsttolist bsttolist.o
+bsttolist.o : bsttolist.cpp
+	g++ -Wall -g -c bsttolist.cpp
+

@@ -1,0 +1,8 @@
+fibonacci : fibonacci.o
+	g++ -Wall -g -o fibonacci fibonacci.o
+fibonacci.o : fibonacci.cpp
+	g++ -Wall -g -c fibonacci.cpp
+bitmultiplication : bitmultiplication.o
+	g++ -Wall -g -o bitmultiplication bitmultiplication.o
+bitmultiplication.o : bitmultiplication.cpp
+	g++ -Wall -g -c bitmultiplication.cpp

@@ -1,0 +1,8 @@
+redblacktree : redblacktree.o
+	g++ -Wall -o redblacktree redblacktree.o
+redblacktree.o : redblacktree.cpp
+	g++ -Wall -c redblacktree.cpp
+
+
+
+

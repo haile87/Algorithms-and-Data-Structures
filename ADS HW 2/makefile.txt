@@ -1,0 +1,31 @@
+list : list.o
+	g++ -Wall -g -o list.o
+list.o : list.cpp
+	g++ -Wall -g -c list.cpp
+
+deque : deque.o
+	g++ -Wall- g -o deque.o
+deque.o : deque.cpp
+	g++ -Wall -g -c deque.cpp
+
+testWindGauge : testWindGauge.o
+	g++ -Wall -g -o testWindGauge.o 
+testWindGauge.o : testWindGauge.cpp WindGauge.cpp WindGauge.h
+	g++ -Wall -g -c testWindGauge.cpp WindGauge.cpp
+
+reversevector : reversevector.o
+	g++ -Wall -g -o reversevector.o
+reversevector.o : reversevector.cpp
+	g++ -Wall -g -c reversevector.cpp
+
+lotto : lotto.o
+	g++ -Wall -g -o lotto.o
+lotto.o : lotto.cpp
+	g++ -Wall -g -c lotto.cpp
+
+map : map.o
+	g++ -Wall -g -o map.o
+map.o : map.cpp
+	g++ -Wall -g -c map.cpp
+
+	

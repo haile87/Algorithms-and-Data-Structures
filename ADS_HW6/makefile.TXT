@@ -1,0 +1,5 @@
+heapsort : heapsort.o
+	g++ -Wall -g -o heapsort heapsort.o
+heapsort.o : heapsort.cpp
+	g++ -Wall -g -c heapsort.cpp
+

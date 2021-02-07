@@ -1,0 +1,5 @@
+listtobst : listtobst.o
+	g++ -Wall -g -o listtobst listtobst.o
+listtobst.o : listtobst.cpp
+	g++ -Wall -g -c listtobst.cpp
+

@@ -1,0 +1,2 @@
+I have put the Number Maze source code file in both the Bonus and Normal submission slots and
+indicated which subpoints the different components of the code belong to.

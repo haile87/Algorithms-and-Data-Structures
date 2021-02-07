@@ -1,0 +1,16 @@
+bucketsort : bucketsort.o
+	g++ -Wall -g -o bucketsort bucketsort.o
+bucketsort.o : bucketsort.cpp
+	g++ -Wall -g -c bucketsort.cpp
+countingsort : countingsort.o
+	g++ -Wall -g -o countingsort countingsort.o
+countingsort.o : countingsort.cpp
+	g++ -Wall -g -c countingsort.cpp
+stringsort : stringsort.o
+	g++ -Wall -g -o stringsort stringsort.o
+stringsort.o : stringsort.cpp
+	g++ -Wall -g -c stringsort.cpp
+radixsort : radixsort.o
+	g++ -Wall -g -o radixsort radixsort.o
+radixsort.o : radixsort.cpp
+	g++ -Wall -g -c radixsort.cpp

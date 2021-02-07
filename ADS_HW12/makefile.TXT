@@ -1,0 +1,11 @@
+OptimalMeetingPoint: OptimalMeetingPoint.o
+	g++ -Wall -o OptimalMeetingPoint OptimalMeetingPoint.o
+
+OptimalMeetingPoint.o: OptimalMeetingPoint.cpp
+	g++ -Wall -c OptimalMeetingPoint.cpp
+
+NumberMaze: NumberMaze.o
+	g++ -Wall -o NumberMaze NumberMaze.o
+
+NumberMaze.o: NumberMaze.cpp
+	g++ -Wall -c NumberMaze.cpp

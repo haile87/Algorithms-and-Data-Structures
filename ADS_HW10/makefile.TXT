@@ -1,0 +1,7 @@
+hashtable : hashtable.o
+	g++ -Wall -o hashtable hashtable.o
+hashtable.o : hashtable.cpp
+	g++ -Wall -c hashtable.cpp
+
+
+

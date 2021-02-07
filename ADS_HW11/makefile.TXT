@@ -1,0 +1,11 @@
+LongestOrderedSubarray: LongestOrderedSubarray.o
+	g++ -Wall -o LongestOrderedSubarray LongestOrderedSubarray.o
+
+LongestOrderedSubarray.o: LongestOrderedSubarray.cpp
+	g++ -Wall -c LongestOrderedSubarray.cpp
+
+TriangleSum: TriangleSum.o
+	g++ -Wall -o TriangleSum TriangleSum.o
+
+TriangleSum.o: TriangleSum.cpp
+	g++ -Wall -c TriangleSum.cpp

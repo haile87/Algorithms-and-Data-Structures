@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1581245677 source:c:\users\haileyesus\desktop\soft\ads hw 1.4\main.cpp
+	<iostream>
+	<vector>
+	<string>
+

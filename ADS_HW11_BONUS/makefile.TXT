@@ -1,0 +1,5 @@
+ScubaDiver: ScubaDiver.o
+	g++ -Wall -o ScubaDiver ScubaDiver.o
+
+ScubaDiver.o: ScubaDiver.cpp
+	g++ -Wall -c ScubaDiver.cpp

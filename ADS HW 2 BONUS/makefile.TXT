@@ -1,0 +1,9 @@
+testAccessSet : testAccessSet.o
+	g++ -Wall -g -o testAccessSet.o
+testAccessSet.o : testAccessSet.cpp Access.cpp Access.h
+	g++ -Wall -g -c testAccessSet.cpp Access.cpp
+
+testAccessMap : testAccessMap.o
+	g++ -Wall -g -o testAccessMap.o
+testAccessMap.o : testAccessMap.cpp AccessMap.cpp AccessMap.h
+	g++ -Wall -g -c testAccessMap.cpp AccessMap.cpp

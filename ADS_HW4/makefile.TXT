@@ -1,0 +1,4 @@
+MergeSort : MergeSort.o
+	g++ -Wall -g -o MergeSort MergeSort.o
+MergeSort.o : MergeSort.cpp
+	g++ -Wall -g -c MergeSort.cpp

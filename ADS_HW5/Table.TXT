@@ -1,0 +1,13 @@
+		Computation time in Microseconds
+		      Fibonacci Sequence
+
+	Naive recursion | Bottom up | Closed form | Matrix form
+number	
+of ele
+ments
+
+2       997		   0	       0	      0
+3	0		   999		3005		3006
+4	2002		   2000		1001		3003
+8	7005		   3000		10011		3001
+16	62059		   7008		13013		9005

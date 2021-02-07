@@ -1,0 +1,7 @@
+greedyalgorithm : greedyalgorithm.o
+	g++ -Wall -o greedyalgorithm greedyalgorithm.o
+greedyalgorithm.o : greedyalgorithm.cpp
+	g++ -Wall -c greedyalgorithm.cpp
+
+
+

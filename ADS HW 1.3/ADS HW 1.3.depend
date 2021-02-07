@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1581366762 source:c:\users\haileyesus\desktop\soft\ads hw 1.3\testlinkedlist.cpp
+	<iostream>
+	"linkedlist.h"
+
+1581366864 c:\users\haileyesus\desktop\soft\ads hw 1.3\linkedlist.h
+	<iostream>
+
